@@ -1,0 +1,65 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  font-size:30px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.lab{width:50%;}
+
+tr{width:100%;}
+table tr td{width:48%;}
+table{width:100%;}
+
+table tr td {font-size: 40px; font-family: helvetica;}
+table tr td input{font-size: 40px; border-radius:10%;}
+table tr td button{width:50%;}
+
+body{color:white; background-image: url('sine.jpg'); background-position: center; background-attachment:fixed; background-repeat: no-repeat;
+font-family: helvetica;}
+table{background-color:#000000; border-radius:5%;
+}
+input[type="submit"]{ width:100%; }
+a #admin{ width:200px; height:50px; font-size:40px; text-decoration: none; color:#ffffff; font-family:cursive; background-color:#ff0000;
+ top :200px; left:580px; z-index:11;}
+ .div10{ position:relative; top:-300px; left:500px; }
+
+a { font-size:40px; position:relative; color:red; font-family: cursive; padding:30px; background-color: white; top:-100; left:200px; }
